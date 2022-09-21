@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input
 
 WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/div_Demo account_input-group'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control_1'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
@@ -42,13 +42,15 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_29'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_21'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'), 'This is my appointment.')
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'), 'This is my appointmnet')
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation'), 'Appointment Confirmation')
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Go to Homepage'))
 
 WebUI.closeBrowser()
 

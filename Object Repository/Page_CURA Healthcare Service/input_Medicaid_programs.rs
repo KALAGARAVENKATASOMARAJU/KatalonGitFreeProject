@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>3e638b5b-1675-49e3-87c3-216550ff6852</webElementGuid>
+      <webElementGuid>18aaef73-e6d2-4499-b101-16109e67b3b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>58e417f5-c1b0-4cf2-9bf9-b8e1d9ba6658</webElementGuid>
+      <webElementGuid>334062d2-8787-427b-9e90-b4c9abf61de4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,10 +38,58 @@
       <name>name</name>
       <type>Main</type>
       <value>programs</value>
-      <webElementGuid>d143ab53-a770-487b-aa5f-0a6016646397</webElementGuid>
+      <webElementGuid>154bfbde-6323-431d-93fa-06d029be5dc3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>radio_program_medicaid</value>
+      <webElementGuid>1882ad95-b607-4f1c-bbd0-53be30f00946</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Medicaid</value>
+      <webElementGuid>d60cbe0f-23ca-4b94-92e6-0c5529e8ad62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radio_program_medicaid&quot;)</value>
+      <webElementGuid>ba6d3c25-d676-4e6b-b686-a625ff38ce21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>3e638b5b-1675-49e3-87c3-216550ff6852</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>radio</value>
+      <webElementGuid>58e417f5-c1b0-4cf2-9bf9-b8e1d9ba6658</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>programs</value>
+      <webElementGuid>d143ab53-a770-487b-aa5f-0a6016646397</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -118,7 +166,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='radio_program_medicaid']</value>
-      <webElementGuid>ff6a4119-dd5f-4fbd-84a0-83f08e531da4</webElementGuid>
+      <webElementGuid>6c605b34-93eb-4886-a586-d870e1429e97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +174,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='appointment']/div/div/form/div[3]/div/label[2]/input</value>
-      <webElementGuid>626edcd5-22fb-452f-a963-c0c3613ad2c6</webElementGuid>
+      <webElementGuid>e5d687cd-59ec-462f-9ce4-890e4fa6a0e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +182,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label[2]/input</value>
-      <webElementGuid>b01ae11b-7332-4733-b6e5-fde7f1ff2afe</webElementGuid>
+      <webElementGuid>76e1dc59-d74f-413d-9454-dd063cb3cde3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +190,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @name = 'programs' and @id = 'radio_program_medicaid']</value>
-      <webElementGuid>d9b3becf-abb1-4105-ad2c-99c6a04af2e8</webElementGuid>
+      <webElementGuid>1ea378d8-7649-4b6e-a754-d7ecd672ddec</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
