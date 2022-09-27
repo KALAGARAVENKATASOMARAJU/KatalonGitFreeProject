@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suit3,Chrome 105.0.0.0,,,2022-09-23 15:50:25,2022-09-23 15:55:49,5m - 24.075s,FAILED
+,,,,,,,
+Test Cases/ManualDemoTestCase,Chrome 105.0.0.0,,,2022-09-23 15:50:26,2022-09-23 15:50:55,29.455s,PASSED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-09-23 15:50:26,2022-09-23 15:50:30,3.299s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 105.0.0.0,,,2022-09-23 15:50:30,2022-09-23 15:50:38,8.456s,PASSED
+"setText(findTestObject(""ManualRecord/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 105.0.0.0,,,2022-09-23 15:50:38,2022-09-23 15:50:42,3.882s,PASSED
+"setEncryptedText(findTestObject(""ManualRecord/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 105.0.0.0,,,2022-09-23 15:50:42,2022-09-23 15:50:45,2.561s,PASSED
+"click(findTestObject(""ManualRecord/Page_OrangeHRM/button_Login""))",Chrome 105.0.0.0,,,2022-09-23 15:50:45,2022-09-23 15:50:46,1.501s,PASSED
+delay(8),Chrome 105.0.0.0,,,2022-09-23 15:50:46,2022-09-23 15:50:54,8.049s,PASSED
+closeBrowser(),Chrome 105.0.0.0,,,2022-09-23 15:50:54,2022-09-23 15:50:55,0.793s,PASSED
+,,,,,,,
+Test Cases/ScriptModeTestCase,Chrome 105.0.0.0,,,2022-09-23 15:50:55,2022-09-23 15:51:19,24.330s,PASSED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-09-23 15:50:56,2022-09-23 15:50:57,1.417s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 105.0.0.0,,,2022-09-23 15:50:57,2022-09-23 15:51:06,8.752s,PASSED
+"setText(findTestObject(""Object Repository/ManualRecord/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 105.0.0.0,,,2022-09-23 15:51:06,2022-09-23 15:51:09,3.415s,PASSED
+"setText(findTestObject(""Object Repository/ManualRecord/Page_OrangeHRM/input_Password_password""), ""admin123"")",Chrome 105.0.0.0,,,2022-09-23 15:51:09,2022-09-23 15:51:12,2.755s,PASSED
+"click(findTestObject(""Object Repository/ManualRecord/Page_OrangeHRM/button_Login""))",Chrome 105.0.0.0,,,2022-09-23 15:51:12,2022-09-23 15:51:14,1.405s,PASSED
+delay(5),Chrome 105.0.0.0,,,2022-09-23 15:51:14,2022-09-23 15:51:19,5.008s,PASSED
+closeBrowser(),Chrome 105.0.0.0,,,2022-09-23 15:51:19,2022-09-23 15:51:19,0.760s,PASSED
+,,,,,,,
+Test Cases/Data Driven Demo,Chrome 105.0.0.0,,,2022-09-23 15:55:17,2022-09-23 15:55:49,32.428s,FAILED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-09-23 15:55:17,2022-09-23 15:55:19,2.084s,PASSED
+"navigateToUrl(""https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F"")",Chrome 105.0.0.0,,,2022-09-23 15:55:19,2022-09-23 15:55:21,2.147s,PASSED
+"click(findTestObject(""Object Repository/Data Driven Demo/Page_Your store. Login/div_Email""))",Chrome 105.0.0.0,,,2022-09-23 15:55:21,2022-09-23 15:55:22,1.570s,PASSED
+"setText(findTestObject(""Object Repository/Data Driven Demo/Page_Your store. Login/input_Email_Email""), username)",Chrome 105.0.0.0,,,2022-09-23 15:55:22,2022-09-23 15:55:26,3.247s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Data Driven Demo/Page_Your store. Login/input_Password_Password""), password)",Chrome 105.0.0.0,,,2022-09-23 15:55:26,2022-09-23 15:55:49,23.336s,FAILED

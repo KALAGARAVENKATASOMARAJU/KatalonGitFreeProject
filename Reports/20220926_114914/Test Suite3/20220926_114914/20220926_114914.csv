@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite3,Chrome 105.0.0.0,,,2022-09-26 11:49:18,2022-09-26 11:52:55,3m - 37.457s,FAILED
+,,,,,,,
+Test Cases/BookAppointment,Chrome 105.0.0.0,,,2022-09-26 11:49:18,2022-09-26 11:50:04,45.330s,PASSED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-09-26 11:49:19,2022-09-26 11:49:22,3.279s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 105.0.0.0,,,2022-09-26 11:49:22,2022-09-26 11:49:34,11.368s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 105.0.0.0,,,2022-09-26 11:49:34,2022-09-26 11:49:36,2.116s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Demo account_input-group""))",Chrome 105.0.0.0,,,2022-09-26 11:49:36,2022-09-26 11:49:37,1.534s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 105.0.0.0,,,2022-09-26 11:49:37,2022-09-26 11:49:40,2.861s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control""))",Chrome 105.0.0.0,,,2022-09-26 11:49:40,2022-09-26 11:49:42,1.473s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 105.0.0.0,,,2022-09-26 11:49:42,2022-09-26 11:49:44,2.615s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 105.0.0.0,,,2022-09-26 11:49:44,2022-09-26 11:49:46,2.121s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Seoul CURA Healthcare Center"", true)",Chrome 105.0.0.0,,,2022-09-26 11:49:46,2022-09-26 11:49:49,2.259s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Chrome 105.0.0.0,,,2022-09-26 11:49:49,2022-09-26 11:49:50,1.442s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs""))",Chrome 105.0.0.0,,,2022-09-26 11:49:50,2022-09-26 11:49:52,1.494s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Chrome 105.0.0.0,,,2022-09-26 11:49:52,2022-09-26 11:49:53,1.461s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_28""))",Chrome 105.0.0.0,,,2022-09-26 11:49:53,2022-09-26 11:49:55,1.528s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""My appointment is on 28th SEP 22"")",Chrome 105.0.0.0,,,2022-09-26 11:49:55,2022-09-26 11:49:57,2.881s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 105.0.0.0,,,2022-09-26 11:49:57,2022-09-26 11:50:00,2.334s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation""), ""Appointment Confirmation"")",Chrome 105.0.0.0,,,2022-09-26 11:50:00,2022-09-26 11:50:00,0.538s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 105.0.0.0,,,2022-09-26 11:50:00,2022-09-26 11:50:03,2.360s,PASSED
+closeBrowser(),Chrome 105.0.0.0,,,2022-09-26 11:50:03,2022-09-26 11:50:04,0.817s,PASSED
+,,,,,,,
+Test Cases/ScriptModeTestCase,Chrome 105.0.0.0,,,2022-09-26 11:50:04,2022-09-26 11:51:39,1m - 35.958s,FAILED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-09-26 11:50:04,2022-09-26 11:50:06,1.825s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 105.0.0.0,,,2022-09-26 11:50:06,2022-09-26 11:51:00,53.920s,PASSED
+"setText(findTestObject(""Object Repository/ManualRecord/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 105.0.0.0,,,2022-09-26 11:51:00,2022-09-26 11:51:05,5.430s,PASSED
+"setText(findTestObject(""Object Repository/ManualRecord/Page_OrangeHRM/input_Password_password""), ""admin123"")",Chrome 105.0.0.0,,,2022-09-26 11:51:05,2022-09-26 11:51:08,2.798s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Chrome 105.0.0.0,,,2022-09-26 11:51:08,2022-09-26 11:51:39,31.285s,FAILED
+,,,,,,,
+Test Cases/Data Driven Demo,Chrome 105.0.0.0,,,2022-09-26 11:51:40,2022-09-26 11:52:10,30.390s,PASSED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-09-26 11:51:40,2022-09-26 11:51:42,2.220s,PASSED
+"navigateToUrl(""https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F"")",Chrome 105.0.0.0,,,2022-09-26 11:51:42,2022-09-26 11:51:44,1.994s,PASSED
+"click(findTestObject(""Object Repository/Data Driven Demo/Page_Your store. Login/div_Email""))",Chrome 105.0.0.0,,,2022-09-26 11:51:44,2022-09-26 11:51:46,1.597s,PASSED
+"setText(findTestObject(""Object Repository/Data Driven Demo/Page_Your store. Login/input_Email_Email""), username)",Chrome 105.0.0.0,,,2022-09-26 11:51:46,2022-09-26 11:51:49,2.812s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Data Driven Demo/Page_Your store. Login/input_Password_Password""), password)",Chrome 105.0.0.0,,,2022-09-26 11:51:49,2022-09-26 11:51:51,2.521s,PASSED
+"click(findTestObject(""Object Repository/Data Driven Demo/Page_Your store. Login/button_Log in""))",Chrome 105.0.0.0,,,2022-09-26 11:51:51,2022-09-26 11:52:05,13.986s,PASSED
+"click(findTestObject(""Object Repository/Data Driven Demo/Page_Dashboard  nopCommerce administration/a_Logout""))",Chrome 105.0.0.0,,,2022-09-26 11:52:05,2022-09-26 11:52:09,4.023s,PASSED
+closeBrowser(),Chrome 105.0.0.0,,,2022-09-26 11:52:09,2022-09-26 11:52:10,0.794s,PASSED
+,,,,,,,
+Test Cases/Data Driven Demo,Chrome 105.0.0.0,,,2022-09-26 11:52:10,2022-09-26 11:52:55,45.030s,FAILED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-09-26 11:52:10,2022-09-26 11:52:12,1.653s,PASSED
+"navigateToUrl(""https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F"")",Chrome 105.0.0.0,,,2022-09-26 11:52:12,2022-09-26 11:52:15,3.040s,PASSED
+"click(findTestObject(""Object Repository/Data Driven Demo/Page_Your store. Login/div_Email""))",Chrome 105.0.0.0,,,2022-09-26 11:52:15,2022-09-26 11:52:16,1.571s,PASSED
+"setText(findTestObject(""Object Repository/Data Driven Demo/Page_Your store. Login/input_Email_Email""), username)",Chrome 105.0.0.0,,,2022-09-26 11:52:16,2022-09-26 11:52:19,2.811s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Data Driven Demo/Page_Your store. Login/input_Password_Password""), password)",Chrome 105.0.0.0,,,2022-09-26 11:52:19,2022-09-26 11:52:22,2.485s,PASSED
+"click(findTestObject(""Object Repository/Data Driven Demo/Page_Your store. Login/button_Log in""))",Chrome 105.0.0.0,,,2022-09-26 11:52:22,2022-09-26 11:52:24,2.001s,PASSED
+"click(findTestObject(""Object Repository/Data Driven Demo/Page_Dashboard  nopCommerce administration/a_Logout""))",Chrome 105.0.0.0,,,2022-09-26 11:52:24,2022-09-26 11:52:55,31.446s,FAILED
