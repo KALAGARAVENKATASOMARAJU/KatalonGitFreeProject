@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/BookAppointment","testCaseId":"Test Cases/BookAppointment","iterationVariableName":""}
+{"testCaseName":"Test Cases/ScriptModeTestCase","testCaseId":"Test Cases/ScriptModeTestCase","iterationVariableName":""}
+{"testCaseName":"Test Cases/Data Driven Demo - Iteration 1","testCaseId":"Test Cases/Data Driven Demo","iterationVariableName":"","bindedValues":{"password":"\u0027RAIVpflpDOg\u003d\u0027","username":"\u0027admin@yourstore.com\u0027"}}
+{"testCaseName":"Test Cases/Data Driven Demo - Iteration 2","testCaseId":"Test Cases/Data Driven Demo","iterationVariableName":"","bindedValues":{"password":"\u0027RAIVpflpDOg\u003d\u0027","username":"\u0027123@yourstore.com\u0027"}}

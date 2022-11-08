@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite2,Firefox 106.0,,,2022-11-04 11:55:45,2022-11-04 11:57:07,1m - 22.001s,PASSED
+,,,,,,,
+Test Cases/Environment Profile Demo,Firefox 106.0,,,2022-11-04 11:55:46,2022-11-04 11:56:24,38.191s,PASSED
+Start listener action : beforeTestCase,Firefox 106.0,,,2022-11-04 11:55:46,2022-11-04 11:55:46,0.005s,PASSED
+"openBrowser("""")",Firefox 106.0,,,2022-11-04 11:55:47,2022-11-04 11:55:56,9.632s,PASSED
+navigateToUrl(URL),Firefox 106.0,,,2022-11-04 11:55:56,2022-11-04 11:56:03,6.291s,PASSED
+"click(findTestObject(""Object Repository/EnvironmentProfileDemo/Page_Your store. Login/p_Admin email adminyourstore.com Admin pass_11085b""))",Firefox 106.0,,,2022-11-04 11:56:03,2022-11-04 11:56:05,1.968s,PASSED
+"click(findTestObject(""Object Repository/EnvironmentProfileDemo/Page_Your store. Login/div_Email""))",Firefox 106.0,,,2022-11-04 11:56:05,2022-11-04 11:56:06,1.654s,PASSED
+"setText(findTestObject(""Object Repository/EnvironmentProfileDemo/Page_Your store. Login/input_Email_Email""), USERNAME)",Firefox 106.0,,,2022-11-04 11:56:06,2022-11-04 11:56:09,2.878s,PASSED
+"click(findTestObject(""Object Repository/EnvironmentProfileDemo/Page_Your store. Login/div_Password""))",Firefox 106.0,,,2022-11-04 11:56:09,2022-11-04 11:56:11,1.721s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/EnvironmentProfileDemo/Page_Your store. Login/input_Password_Password""), PASSWORD)",Firefox 106.0,,,2022-11-04 11:56:11,2022-11-04 11:56:14,2.540s,PASSED
+"click(findTestObject(""Object Repository/EnvironmentProfileDemo/Page_Your store. Login/button_Log in""))",Firefox 106.0,,,2022-11-04 11:56:14,2022-11-04 11:56:19,5.771s,PASSED
+"click(findTestObject(""Object Repository/EnvironmentProfileDemo/Page_Dashboard  nopCommerce administration/a_Logout""))",Firefox 106.0,,,2022-11-04 11:56:19,2022-11-04 11:56:22,3.139s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/EnvironmentProfileDemo/Page_Your store. Login/button_Log in""), 4)",Firefox 106.0,,,2022-11-04 11:56:22,2022-11-04 11:56:23,0.484s,PASSED
+closeBrowser(),Firefox 106.0,,,2022-11-04 11:56:23,2022-11-04 11:56:24,0.880s,PASSED
+Start listener action : afterTestCase,Firefox 106.0,,,2022-11-04 11:56:24,2022-11-04 11:56:24,0.002s,PASSED
+,,,,,,,
+Test Cases/BookAppointment,Firefox 106.0,,,2022-11-04 11:56:24,2022-11-04 11:57:07,42.866s,PASSED
+Start listener action : beforeTestCase,Firefox 106.0,,,2022-11-04 11:56:24,2022-11-04 11:56:24,0.003s,PASSED
+"openBrowser("""")",Firefox 106.0,,,2022-11-04 11:56:24,2022-11-04 11:56:29,4.597s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 106.0,,,2022-11-04 11:56:29,2022-11-04 11:56:37,8.497s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 106.0,,,2022-11-04 11:56:37,2022-11-04 11:56:39,1.961s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Demo account_input-group""))",Firefox 106.0,,,2022-11-04 11:56:39,2022-11-04 11:56:41,1.689s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Firefox 106.0,,,2022-11-04 11:56:41,2022-11-04 11:56:44,2.732s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control""))",Firefox 106.0,,,2022-11-04 11:56:44,2022-11-04 11:56:45,1.723s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Firefox 106.0,,,2022-11-04 11:56:45,2022-11-04 11:56:48,2.412s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Firefox 106.0,,,2022-11-04 11:56:48,2022-11-04 11:56:50,2.081s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Seoul CURA Healthcare Center"", true)",Firefox 106.0,,,2022-11-04 11:56:50,2022-11-04 11:56:52,2.425s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Firefox 106.0,,,2022-11-04 11:56:52,2022-11-04 11:56:54,1.611s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs""))",Firefox 106.0,,,2022-11-04 11:56:54,2022-11-04 11:56:56,1.615s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Firefox 106.0,,,2022-11-04 11:56:56,2022-11-04 11:56:57,1.612s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_28""))",Firefox 106.0,,,2022-11-04 11:56:57,2022-11-04 11:56:59,1.618s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""My appointment is on 28th SEP 22"")",Firefox 106.0,,,2022-11-04 11:56:59,2022-11-04 11:57:02,2.759s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Firefox 106.0,,,2022-11-04 11:57:02,2022-11-04 11:57:03,1.909s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation""), ""Appointment Confirmation"")",Firefox 106.0,,,2022-11-04 11:57:03,2022-11-04 11:57:04,0.481s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",Firefox 106.0,,,2022-11-04 11:57:04,2022-11-04 11:57:06,1.797s,PASSED
+closeBrowser(),Firefox 106.0,,,2022-11-04 11:57:06,2022-11-04 11:57:07,0.900s,PASSED
+Start listener action : afterTestCase,Firefox 106.0,,,2022-11-04 11:57:07,2022-11-04 11:57:07,0.002s,PASSED

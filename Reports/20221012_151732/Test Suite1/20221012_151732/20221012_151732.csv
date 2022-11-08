@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite1,,,,2022-10-12 15:17:37,2022-10-12 15:17:52,14.931s,FAILED
+,,,,,,,
+Test Cases/MyFirstTestCase,,,,2022-10-12 15:17:37,2022-10-12 15:17:42,4.881s,FAILED
+Start listener action : beforeTestCase,,,,2022-10-12 15:17:38,2022-10-12 15:17:38,0.002s,PASSED
+"openBrowser(""google.com"")",,,,2022-10-12 15:17:38,2022-10-12 15:17:42,3.971s,FAILED
+Start listener action : afterTestCase,,,,2022-10-12 15:17:42,2022-10-12 15:17:42,0.003s,PASSED
+,,,,,,,
+Test Cases/BookAppointment,,,,2022-10-12 15:17:42,2022-10-12 15:17:47,4.596s,FAILED
+Start listener action : beforeTestCase,,,,2022-10-12 15:17:42,2022-10-12 15:17:42,0.004s,PASSED
+"openBrowser("""")",,,,2022-10-12 15:17:43,2022-10-12 15:17:45,1.781s,FAILED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",,,,2022-10-12 15:17:45,2022-10-12 15:17:45,0.075s,FAILED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",,,,2022-10-12 15:17:45,2022-10-12 15:17:45,0.137s,FAILED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Demo account_input-group""))",,,,2022-10-12 15:17:45,2022-10-12 15:17:45,0.094s,FAILED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",,,,2022-10-12 15:17:45,2022-10-12 15:17:45,0.101s,FAILED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control""))",,,,2022-10-12 15:17:45,2022-10-12 15:17:45,0.079s,FAILED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",,,,2022-10-12 15:17:45,2022-10-12 15:17:45,0.112s,FAILED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",,,,2022-10-12 15:17:45,2022-10-12 15:17:45,0.087s,FAILED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Seoul CURA Healthcare Center"", true)",,,,2022-10-12 15:17:45,2022-10-12 15:17:46,0.178s,FAILED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",,,,2022-10-12 15:17:46,2022-10-12 15:17:46,0.119s,FAILED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs""))",,,,2022-10-12 15:17:46,2022-10-12 15:17:46,0.082s,FAILED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",,,,2022-10-12 15:17:46,2022-10-12 15:17:46,0.073s,FAILED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_28""))",,,,2022-10-12 15:17:46,2022-10-12 15:17:46,0.079s,FAILED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""My appointment is on 28th SEP 22"")",,,,2022-10-12 15:17:46,2022-10-12 15:17:46,0.078s,FAILED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",,,,2022-10-12 15:17:46,2022-10-12 15:17:46,0.072s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation""), ""Appointment Confirmation"")",,,,2022-10-12 15:17:46,2022-10-12 15:17:46,0.085s,FAILED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",,,,2022-10-12 15:17:46,2022-10-12 15:17:46,0.074s,FAILED
+closeBrowser(),,,,2022-10-12 15:17:46,2022-10-12 15:17:47,0.619s,PASSED
+Start listener action : afterTestCase,,,,2022-10-12 15:17:47,2022-10-12 15:17:47,0.004s,PASSED
+,,,,,,,
+Test Cases/RecordModeTestCase,,,,2022-10-12 15:17:47,2022-10-12 15:17:52,4.834s,FAILED
+Start listener action : beforeTestCase,,,,2022-10-12 15:17:47,2022-10-12 15:17:47,0.002s,PASSED
+"openBrowser("""")",,,,2022-10-12 15:17:48,2022-10-12 15:17:50,1.750s,FAILED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",,,,2022-10-12 15:17:50,2022-10-12 15:17:50,0.022s,FAILED
+"setText(findTestObject(""Object Repository/RecordModeObjects/Page_OrangeHRM/input_Username_username""), ""Admin"")",,,,2022-10-12 15:17:50,2022-10-12 15:17:50,0.192s,FAILED
+"setEncryptedText(findTestObject(""Object Repository/RecordModeObjects/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",,,,2022-10-12 15:17:50,2022-10-12 15:17:50,0.203s,FAILED
+"click(findTestObject(""Object Repository/RecordModeObjects/Page_OrangeHRM/button_Login""))",,,,2022-10-12 15:17:50,2022-10-12 15:17:51,0.208s,FAILED
+"click(findTestObject(""Object Repository/RecordModeObjects/Page_OrangeHRM/i_PIM_oxd-icon bi-caret-down-fill oxd-userd_9ba5b3""))",,,,2022-10-12 15:17:51,2022-10-12 15:17:51,0.239s,FAILED
+"click(findTestObject(""Object Repository/RecordModeObjects/Page_OrangeHRM/a_Logout""))",,,,2022-10-12 15:17:51,2022-10-12 15:17:51,0.227s,FAILED
+"verifyElementText(findTestObject(""Object Repository/RecordModeObjects/Page_OrangeHRM/h5_Login""), ""Login"")",,,,2022-10-12 15:17:51,2022-10-12 15:17:51,0.204s,FAILED
+closeBrowser(),,,,2022-10-12 15:17:51,2022-10-12 15:17:52,0.618s,PASSED
+Start listener action : afterTestCase,,,,2022-10-12 15:17:52,2022-10-12 15:17:52,0.006s,PASSED

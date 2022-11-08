@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite3,Chrome 107.0.0.0,,,2022-11-04 11:57:47,2022-11-04 11:59:32,1m - 45.061s,FAILED
+,,,,,,,
+Test Cases/BookAppointment,Chrome 107.0.0.0,,,2022-11-04 11:57:48,2022-11-04 11:58:30,42.707s,PASSED
+Start listener action : beforeTestCase,Chrome 107.0.0.0,,,2022-11-04 11:57:48,2022-11-04 11:57:48,0.019s,PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-04 11:57:49,2022-11-04 11:57:54,5.296s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 107.0.0.0,,,2022-11-04 11:57:54,2022-11-04 11:58:01,6.359s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 107.0.0.0,,,2022-11-04 11:58:01,2022-11-04 11:58:03,2.568s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Demo account_input-group""))",Chrome 107.0.0.0,,,2022-11-04 11:58:03,2022-11-04 11:58:05,1.442s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 107.0.0.0,,,2022-11-04 11:58:05,2022-11-04 11:58:08,2.950s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control""))",Chrome 107.0.0.0,,,2022-11-04 11:58:08,2022-11-04 11:58:09,1.569s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 107.0.0.0,,,2022-11-04 11:58:09,2022-11-04 11:58:12,2.785s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 107.0.0.0,,,2022-11-04 11:58:12,2022-11-04 11:58:14,2.072s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Seoul CURA Healthcare Center"", true)",Chrome 107.0.0.0,,,2022-11-04 11:58:14,2022-11-04 11:58:17,2.337s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Chrome 107.0.0.0,,,2022-11-04 11:58:17,2022-11-04 11:58:18,1.433s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs""))",Chrome 107.0.0.0,,,2022-11-04 11:58:18,2022-11-04 11:58:20,1.632s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Chrome 107.0.0.0,,,2022-11-04 11:58:20,2022-11-04 11:58:21,1.427s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_28""))",Chrome 107.0.0.0,,,2022-11-04 11:58:21,2022-11-04 11:58:23,1.585s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""My appointment is on 28th SEP 22"")",Chrome 107.0.0.0,,,2022-11-04 11:58:23,2022-11-04 11:58:26,3.036s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 107.0.0.0,,,2022-11-04 11:58:26,2022-11-04 11:58:27,1.782s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation""), ""Appointment Confirmation"")",Chrome 107.0.0.0,,,2022-11-04 11:58:27,2022-11-04 11:58:28,0.448s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 107.0.0.0,,,2022-11-04 11:58:28,2022-11-04 11:58:30,1.717s,PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-04 11:58:30,2022-11-04 11:58:30,0.733s,PASSED
+Start listener action : afterTestCase,Chrome 107.0.0.0,,,2022-11-04 11:58:30,2022-11-04 11:58:30,0.001s,PASSED
+,,,,,,,
+Test Cases/ScriptModeTestCase,Chrome 107.0.0.0,,,2022-11-04 11:58:30,2022-11-04 11:58:48,18.071s,PASSED
+Start listener action : beforeTestCase,Chrome 107.0.0.0,,,2022-11-04 11:58:30,2022-11-04 11:58:30,0.002s,PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-04 11:58:31,2022-11-04 11:58:33,1.404s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 107.0.0.0,,,2022-11-04 11:58:33,2022-11-04 11:58:40,7.005s,PASSED
+"setText(findTestObject(""Object Repository/ManualRecord/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 107.0.0.0,,,2022-11-04 11:58:40,2022-11-04 11:58:43,3.653s,PASSED
+"setText(findTestObject(""Object Repository/ManualRecord/Page_OrangeHRM/input_Password_password""), ""admin123"")",Chrome 107.0.0.0,,,2022-11-04 11:58:43,2022-11-04 11:58:46,3.082s,PASSED
+"click(findTestObject(""Login/Page_OrangeHRM/button_Login""))",Chrome 107.0.0.0,,,2022-11-04 11:58:46,2022-11-04 11:58:48,1.431s,PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-04 11:58:48,2022-11-04 11:58:48,0.748s,PASSED
+Start listener action : afterTestCase,Chrome 107.0.0.0,,,2022-11-04 11:58:48,2022-11-04 11:58:48,0.001s,PASSED
+,,,,,,,
+Test Cases/Data Driven Demo,Chrome 107.0.0.0,,,2022-11-04 11:58:49,2022-11-04 11:59:13,24.728s,PASSED
+Start listener action : beforeTestCase,Chrome 107.0.0.0,,,2022-11-04 11:58:49,2022-11-04 11:58:49,0.001s,PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-04 11:58:50,2022-11-04 11:58:52,1.685s,PASSED
+"navigateToUrl(""https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F"")",Chrome 107.0.0.0,,,2022-11-04 11:58:52,2022-11-04 11:58:54,2.441s,PASSED
+"click(findTestObject(""Object Repository/Data Driven Demo/Page_Your store. Login/div_Email""))",Chrome 107.0.0.0,,,2022-11-04 11:58:54,2022-11-04 11:58:56,1.552s,PASSED
+"setText(findTestObject(""Object Repository/Data Driven Demo/Page_Your store. Login/input_Email_Email""), username)",Chrome 107.0.0.0,,,2022-11-04 11:58:56,2022-11-04 11:58:59,2.968s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Data Driven Demo/Page_Your store. Login/input_Password_Password""), password)",Chrome 107.0.0.0,,,2022-11-04 11:58:59,2022-11-04 11:59:01,2.677s,PASSED
+"click(findTestObject(""Object Repository/Data Driven Demo/Page_Your store. Login/button_Log in""))",Chrome 107.0.0.0,,,2022-11-04 11:59:01,2022-11-04 11:59:09,8.016s,PASSED
+"click(findTestObject(""Object Repository/Data Driven Demo/Page_Dashboard  nopCommerce administration/a_Logout""))",Chrome 107.0.0.0,,,2022-11-04 11:59:09,2022-11-04 11:59:13,3.416s,PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-04 11:59:13,2022-11-04 11:59:13,0.747s,PASSED
+Start listener action : afterTestCase,Chrome 107.0.0.0,,,2022-11-04 11:59:13,2022-11-04 11:59:13,0.001s,PASSED
+,,,,,,,
+Test Cases/Data Driven Demo,Chrome 107.0.0.0,,,2022-11-04 11:59:14,2022-11-04 11:59:32,18.206s,FAILED
+Start listener action : beforeTestCase,Chrome 107.0.0.0,,,2022-11-04 11:59:14,2022-11-04 11:59:14,0.035s,PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-04 11:59:14,2022-11-04 11:59:15,1.575s,PASSED
+"navigateToUrl(""https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F"")",Chrome 107.0.0.0,,,2022-11-04 11:59:15,2022-11-04 11:59:17,1.682s,PASSED
+"click(findTestObject(""Object Repository/Data Driven Demo/Page_Your store. Login/div_Email""))",Chrome 107.0.0.0,,,2022-11-04 11:59:17,2022-11-04 11:59:18,1.557s,PASSED
+"setText(findTestObject(""Object Repository/Data Driven Demo/Page_Your store. Login/input_Email_Email""), username)",Chrome 107.0.0.0,,,2022-11-04 11:59:18,2022-11-04 11:59:21,2.972s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Data Driven Demo/Page_Your store. Login/input_Password_Password""), password)",Chrome 107.0.0.0,,,2022-11-04 11:59:21,2022-11-04 11:59:24,2.608s,PASSED
+"click(findTestObject(""Object Repository/Data Driven Demo/Page_Your store. Login/button_Log in""))",Chrome 107.0.0.0,,,2022-11-04 11:59:24,2022-11-04 11:59:26,1.826s,PASSED
+"click(findTestObject(""Object Repository/Data Driven Demo/Page_Dashboard  nopCommerce administration/a_Logout""))",Chrome 107.0.0.0,,,2022-11-04 11:59:26,2022-11-04 11:59:29,3.473s,FAILED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-04 11:59:29,2022-11-04 11:59:32,2.410s,PASSED
+Start listener action : afterTestCase,Chrome 107.0.0.0,,,2022-11-04 11:59:32,2022-11-04 11:59:32,0.006s,PASSED
